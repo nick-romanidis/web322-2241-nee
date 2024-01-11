@@ -9,3 +9,4 @@ doSomething("Jon Snow");
 doSomething();              
 doSomething(undefined, 40); 
 doSomething("Jon Snow", undefined);
+doSomething(40);

@@ -18,7 +18,7 @@ function square()
     return number * number;
 }
 
-console.log(square())
+console.log(square());
 
 
 function cube()
