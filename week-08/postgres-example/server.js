@@ -14,8 +14,8 @@ app.use(expressLayouts);
 app.use(express.urlencoded({ extended: true }));
 
 // Define the connection to our Postgres instance.
-const sequelize = new sequelizeModule("yopnrfgz", "yopnrfgz", "xSVV_zi-Enuke7NpmaNfSFQFNSFUz5RL", {
-    host: "ruby.db.elephantsql.com",
+const sequelize = new sequelizeModule("database", "user", "password", {
+    host: "hostname",
     dialect: "postgres",
     port: 5432,
     dialectOptions: {
